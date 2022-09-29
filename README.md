@@ -3,6 +3,7 @@
 
 ### Here I am providing 2 points to make it easier for the reviewer.
   - The stack I am using.
+  - Assumptions
   - How to run the application.
 
   #
@@ -13,7 +14,14 @@
       * I am using Highline for CLI purpose.
       * I am using RSpec as a testing framework
 
-  2. How to run the app:
+  2. Assumptions I made.
+      * I am assuming that, each route has to start by a launching
+     mission from any planet and end with landing.
+
+      * I am assuming that the mass of the equipment has to be
+        positive.Just positive number.I did not found any constraints against the equipment weight.
+
+  3. How to run the app:
 
       *  ```
           cd /your/project/directory
