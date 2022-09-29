@@ -41,10 +41,10 @@
 
          ```
       * An example for the results with valid input:
-        ![valid input](/snapshots/valid_input.png)
+        ![valid input](/public/valid_input.png)
 
       * An example for the results with invalid input:
-        ![Invalid input](/snapshots/bad_input_example.png)
+        ![Invalid input](/public/bad_input_example.png)
 
       * For testing, in the same directory, run
 
