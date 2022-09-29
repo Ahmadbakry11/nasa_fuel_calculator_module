@@ -7,7 +7,8 @@
 
   #
   1. Stack
-      * It is a CLI app.The app is simple and no need to use ROR.I think it s kind of overengineering
+      * It is a CLI app.The app is simple and my .I think using Ruby On Rails framework
+        will be a kind of over enginnering.
       * I am using Ruby version 3.1.2
       * I am using Highline for CLI purpose.
       * I am using RSpec as a testing framework
@@ -39,6 +40,11 @@
            Enter the whole flight route. Example: [[:mission1, gravity1], [:mission2, gravity2]]?  
 
          ```
+      * An example for the results with valid input:
+        ![valid input](/snapshots/valid_input.png)
+
+      * An example for the results with invalid input:
+        ![Invalid input](/snapshots/bad_input_example.png)
 
       * For testing, in the same directory, run
 
