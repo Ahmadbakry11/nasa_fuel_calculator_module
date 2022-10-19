@@ -1,6 +1,5 @@
 # Nasa Flights Fuel calculator module
 
-
 ### Here I am providing 2 points to make it easier for the reviewer.
   - The stack I am using.
   - Assumptions

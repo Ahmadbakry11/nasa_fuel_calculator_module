@@ -9,24 +9,19 @@ class FlightProgramInput
   attr_accessor :args, :errors
 
   def initialize(args)
-    raise ArgumentError unless args.kind_of?(Hash)
-    @args = defaults.merge(args)
-    @errors = @args[:errors]
+    @args = args
+    @errors = []
   end
 
   def valid?
-    apply_flight_program_rules(args)
-    @errors.empty?
+    apply_flight_program_rules
+    errors.empty?
   end
 
-  def apply_flight_program_rules(args)
+  def apply_flight_program_rules
     RULES.each do |rule|
-      result = rule.call(args)
+      result = rule.call(args, errors)
       break unless result
     end
-  end
-
-  def defaults
-    { errors: [] }
   end
 end
