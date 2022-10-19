@@ -41,7 +41,7 @@ module Cli
 
     start_fuel_calculation_process
   rescue NameError, SyntaxError
-    puts MESSAGE[:syntax_error].red
+    puts MESSAGES[:syntax_error].red
   end
 
   def self.start_fuel_calculation_process
