@@ -48,10 +48,10 @@
 
          ```
       * An example for the results with valid input:
-        ![valid input](/public/valid_input.png)
+        ![valid input](/public/success_case.png)
 
       * An example for the results with invalid input:
-        ![Invalid input](/public/bad_input_example.png)
+        ![Invalid input](/public/failure_case.png)
 
       * For testing, in the same directory, run
 
